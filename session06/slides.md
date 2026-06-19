@@ -337,7 +337,7 @@ DELETE FROM todos WHERE id = 3;
 DELETE FROM todos WHERE done = 1;
 
 -- 全件削除（WHERE なし = 全件対象）
-DELETE FROM todos;
+DELETE FROM todos
 ```
 
 ### 注意！
